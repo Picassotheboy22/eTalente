@@ -5,11 +5,12 @@ Junior Test Analyst
 1.	The first scenario, I documented when going through the login page was the forgotten password function which users really rely on if they have an existing account.
  - The first issue here is that the system will still say that a link to reset the password has been sent even though the 
    email does not exist.
-   
+![Screenshot 2024-04-08 111713](https://github.com/Picassotheboy22/eTalente/assets/166037734/d57d5270-ae61-4b4f-918a-c34aa78e306f)
+
 - The second thing is that the system should clearly state to the user if the email does not exist on the system or if the 
   have entered the wrong password or username. If the prompt message is “invalid credentials” it is not really user friendly
 
-
+     ![Screenshot 2024-04-08 111742](https://github.com/Picassotheboy22/eTalente/assets/166037734/0cd53486-2114-4ea5-88c7-52a856803845)
 
 - The third scenario tested was to see if the username had a case sensitive validation for security reasons. If doesn’t even 
   if the “Admin” is entered as “admin” the system will allow you to login.
