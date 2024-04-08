@@ -38,3 +38,43 @@ Junior Test Analyst
 7.	It is known as exploratory testing. It’s an agile methodology it needs outside the box thinking because this process does not follow predefined test cases.
 
 
+# Test Case Scenarios
+
+- Click "Add - User"
+   - Expected Result. Fill in "First Name", "Last Name", "User Name", enter a new "Password". Select a Customer category.
+   - Seleet "Role", enter your "E-mail" address and enter your "Cell Phone" number.
+- Click "Save" to save the information
+    - Expected result. The system will add the new user and the required information entered on the form.
+ 
+ ### Negative Testing Scenario
+ 
+ - Click "Add - User"
+   - Expected Result. Fill in the same "First Name", "Last Name", "User Name", enter a new "Password". and Customer 
+     category.
+   - Seleet "Role", enter the same "E-mail" address and enter your "Cell Phone" number with addistional character to check 
+     if there is a validator to tell the user the enter numbers only.
+     
+ - Click "Save" to save the information
+    - Expected result. The system will tell the user that the user already exists on the system.
+
+
+ - Click "Add - User"
+   - Expected Result. Fill in the a "First Name", "Last Name", "User Name", enter a new "Password". and Customer 
+     category.
+   - Seleet "Role", enter the same "E-mail" address and enter your "Cell Phone" number.
+     
+ - Click "Cancel" to remove the information
+    - Expected result. The system will remove the entered information.
+  
+
+ ### Additional Information
+ 1. The form has the following bugs that need to fixed:
+    - The form does not clear the information entered by the user. When the user "clicks" cancel and then "Add - user" the
+      information entered previously remains on the form.
+
+    - The user can add multiple users with the same usernamer the system does not have a validator to make the username 
+      identifier unique.
+
+    - The Password field is not a required field which is a major security flaw.
+    
+
